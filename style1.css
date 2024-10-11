@@ -1,0 +1,121 @@
+*{
+    text-align:center;
+}
+body{
+    background:black;
+}
+.login{
+    background:black;
+    margin:auto;
+    width:100%;   
+}
+#img{
+    position:relative;
+    height:30%;
+    width:30%;
+    display:inline;
+    margin: 15% auto 5% auto;
+}
+#list{
+    display:block;
+    position:relative;
+    height:10%;
+    width:10%;
+    float:right;
+}
+input{
+    outline:none;
+    background:white;
+    border-top:none;
+    border-bottom:none;
+    border-right:none;
+    border-left:10px solid rgb(255,0,0);
+    border-radius:11px;
+    margin:20px auto;
+    text-align:left;
+    padding:15px;
+    padding-left:1%px;
+    width:70%;
+    color:black;
+    font-size:16px;
+    font-weight:800;
+    letter-spacing:3px;
+    transition:all 0.4s;
+}
+#button{
+    display:block;
+    outline:none;
+    background:rgb(255,0,0);
+    border-top:none;
+    border-left:9px solid rgb(255,0,0);
+    border-right:none;
+    border-bottom:10px solid white;
+    border-radius:11px;
+    margin:40px auto;
+    padding:10px;
+    width:50%;
+    font-size:17px;
+    font-weight:1000;
+    letter-spacing:7px;
+    text-align:center;
+    box-shadow: 0px 0px 20px 0.6px rgba(255,0,0,0.5);
+    transition:all 3s;
+}
+#button:hover{
+    display:block;
+    outline:none;
+    background:rgb(255,0,0);
+    border-top:none;
+    border-left:9px solid white;
+    border-right:none;
+    border-bottom:10px solid rgb(255,0,0);
+    border-radius:11px;
+    margin:40px auto;
+    padding:10px;
+    width:50%;
+    font-size:17px;
+    font-weight:1000;
+    letter-spacing:7px;
+    text-align:center;
+    box-shadow: 0px 0px 20px 0.6px rgba(255,0,0,0.5);
+    transition:all 2s;
+}
+input::placeholder{
+    color:black;
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:3px;
+}
+input:focus{
+    border-left:none;
+    border-bottom:10px solid rgb(255,0,0);
+    color:rgb(255,0,0);
+    transition:all 0.4s;
+}
+.username{
+    margin-top:50px;
+    text-transform:uppercase;
+}
+.password:focus{
+    background:black;
+    color:black;
+    
+}
+::selection{
+    background: rgb(255,0,0);
+    color:black;
+}
+#ls{
+    width:100px;
+    transform: scale(1.7);
+    display:inline;  
+    height:20%;
+}
+#index{
+    width:45%;
+    height:0%;
+    background:black;
+    border:none;
+    margin:80% auto 0 auto;
+}
+
